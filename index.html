@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>	
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="Home">
+<img class="background" >
+<div class="mainText">
+	<h1 style="display:inline" id="Titre"></h1>
+	<br>
+	<br>
+	<div class="subTitle"><p style="display:inline" id="subTitle"></p>Developer</div>
+</div>
+</div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item homenav">
+        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item aboutnavb">
+        <a class="nav-link " href="#">About</a>
+      </li>
+      <li class="nav-item skillsnav">
+        <a class="nav-link " href="#">Skills</a>
+      </li>
+      <li class="nav-item OurWorknav">
+        <a class="nav-link" href="#">OurWork</a>
+      </li>
+     <li class="nav-item Contactnav">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="About">
+	<div class="aboutnavs">
+	<h1 id="abouth1" data-aos="fade-right" data-aos-delay="300">About</h1>
+	<div id="aboutbar" data-aos="fade-left" data-aos-delay="300"></div>
+	</div>
+	<div id="aboutme">
+		<p class="amP" data-aos="fade-right" data-aos-delay="300">I'm a Full-Stack developer but I'm obsessed with the BackEnd more than the FrontEnd <br> but i can make a pretty descent UI with several effects and animations and Amazing UX <br> Like the one you're watching RIGHT NOW!</p>
+		<br>
+	<h3 data-aos="fade-left" data-aos-delay="600" id="MWh3">My Work will be:</h3>
+		
+	</div>
+
+	<div class="myWorkwb">
+
+		<div class="MW" data-aos="flip-right" data-aos-delay="700" id="MW1">
+			<div class="hexagon">
+				<i class="material-icons">speedometer</i>
+			</div>
+			<p class="MWtext">Fast</p>
+			<p class="MWsubtext">Fast load-time ,My Highest Priority!</p>
+		</div>	
+		<div class="MW" data-aos="flip-right" data-aos-delay="800" id="MW2">
+			<div class="hexagon">
+				<i class="material-icons">devices</i>
+			</div>
+			<p class="MWtext">Responsive</p>
+			<p class="MWsubtext">My work will match any kind of Devices!</p>
+		</div>	
+		<div class="MW" data-aos="flip-right" data-aos-delay="900" id="MW3">
+			<div class="hexagon">
+				<i class="material-icons">error_outline</i>
+			</div>
+			<p class="MWtext">Bug Free</p>
+			<p class="MWsubtext">Bug Free Website, What's better than that!</p>
+		</div>	
+		<div class="MW" data-aos="flip-right" data-aos-delay="1000" id="MW4">
+			<div class="hexagon">
+				<i class="material-icons">color_lens</i>
+			</div>
+			<p class="MWtext">Artistic</p>
+			<p class="MWsubtext">Beautiful and Expressive UI means an Awsome UX</p>
+		</div>	
+	</div>
+</div>
+
+<div class="Skills">
+	<div class="aboutnavs">
+	<h1 id="abouth1" data-aos="fade-right" data-aos-delay="300">Skills</h1>
+	<div id="aboutbar" data-aos="fade-left" data-aos-delay="300"></div>
+	</div>
+	<div id="Chart">
+	<p data-aos="fade-left" data-aos-delay="400" id="ChartDes">This a List For Some Web Technologies For Websites</p>
+<canvas data-aos="fade-right" data-aos-delay="600" id="myChart" width="400" height="400"></canvas>
+</div>
+</div>
+
+<div class="OurWork">
+	<div class="aboutnavs">
+	<h1 id="abouth1" data-aos="fade-right" data-aos-delay="300">Portfolio</h1>
+	<div id="aboutbar" data-aos="fade-left" style="width:150px;" data-aos-delay="300"></div>
+	</div>
+
+	<div class="SampleDiv">
+	<h3 id="Sampleh3" data-aos="fade-left" data-aos-delay="400">Sample</h3>
+	<p data-aos="fade-right" data-aos-delay="600">Algerian Reporters is a News Website,Which takes the idea of web scraping to a new level,</p>
+	<a href="http://algerianreporters.com/" target="_blank"><img data-aos="zoom-in" data-aos-delay="600" id="Sample" src="assets/Arepo.png"></a>
+	</div>
+</div>
+
+<div class="Contact">
+		<div class="aboutnavs">
+	<h1 id="abouth1" data-aos="fade-right" data-aos-delay="300">Contact</h1>
+	<div id="aboutbar" data-aos="fade-left" style="width:130px;" data-aos-delay="300"></div>
+	</div>
+	<p data-aos="fade-right" data-aos-delay="500" id="contactp">Do you have a Project or you want some informations?</p>
+	<div class="ContactForm">
+		<form id="contactform" action="https://www.enformed.io/wr08sqll" method="POST">
+      <div data-aos="fade-right" data-aos-delay="600" class="input-field ContactIN">
+          <input class="input-field ContactIN" type="text" name="name">
+          <label for="first_name">Name</label>
+        </div>
+    	<div data-aos="fade-left" data-aos-delay="700" class="input-field ContactIN">
+          <input type="email" name="_replyto">
+          <label for="first_name">Email</label>
+        </div>
+        <div data-aos="fade-right" data-aos-delay="800" class="input-field ContactIN">
+          <textarea id="TA" class="materialize-textarea ContactIN" type="text" name="message"></textarea>
+          <label for="first_name">Message</label>
+        </div>
+   
+    <button data-aos="zoom-in" data-aos-delay="800" id="Contactbtn" class="btn waves-effect waves-light" type="submit" value="Submit" name="submit">Submit</button>
+</form> 
+
+	</div>
+</div>
+<footer>
+	<p id="footerp">Rafik Kasmi &copy;2018</p>
+</footer>
+</body>
+
+<script src="index.js"></script>
+
+</html>
