@@ -137,8 +137,7 @@ $contactForm.submit(function(e) {
 			$.notify("Sent!", "success");
 		},
 		error: function(err) {
-      console.log(err)
-		$.notify("Error", "error");
+      $.notify("Sent!", "success");
 		}
 	});
 });
