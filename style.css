@@ -409,7 +409,9 @@ footer {
     width: 300px;
     height: auto;
   }
-
+  .Contact{
+    height:100px;
+  }
   .ContactForm {
     display: flex;
     flex-direction: row;
@@ -470,7 +472,7 @@ footer {
     height: 800px;
   }
   .Contact{
-    height: 800px;
+    height: 100px;
   }
 
 
