@@ -345,6 +345,9 @@ footer {
 .active {
   height: 64px;
 }
+.navbar{
+  top:0;
+}
 
 @media screen and (max-width: 600px) {
   html {
@@ -452,7 +455,6 @@ footer {
     position: absolute;
     margin-top: -10px;
     left: 0;
-    width: 100%;
     background-color: #343a40;
   }
 
