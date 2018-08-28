@@ -346,8 +346,9 @@ footer {
   height: 64px;
 }
 .navbar{
+  position: fixed;
   top:0;
-  width: 99vw;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
